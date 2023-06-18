@@ -74,8 +74,8 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color:var(--background-color);
-    color:var(--non-primary-blue-color);
+    background-color:var(--non-primary-blue-color);
+    color:var(--background-color)
     cursor: pointer;
 }
 .subtitle{
@@ -150,5 +150,5 @@
         .button:hover,
         .button:focus{
             color:var(--primary-white-color);
-            background-color:var(var(--primary-blue-color);
+            background-color:var(--primary-blue-color);
         }
