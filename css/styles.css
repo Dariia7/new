@@ -1,3 +1,13 @@
+  :root {
+      --brand-color: #2E2F42;
+      --primary-slate-color: #434455;
+      --primary-blue-color: #404BBF;
+      --non-primary-blue-color: #4D5AE5;
+      --primary-white-color: #FFFFFF;
+      --non-primary-white-color: #E7E9FC;
+      --dark-color: #000000;
+      --background-color: #F4F4FD;
+  }
 .body {
     font-family: "Roboto", sans-serif;
     background-color:var(--primary-white-color);
@@ -69,14 +79,14 @@
     .description{
         font-weight: 400;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--primary-slate-color);
     }
     .section-name{
         font-weight: 700;
         font-size: 36px;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
@@ -97,7 +107,7 @@
     .filter-btn{
       font-weight: 500;
       font-size: 16px;
-      line-height: 1,5;
+      line-height: 1.5;
       letter-spacing: 0.04;
       background-color:var(--non-primary-white-color);
       color:var(--non-primary-blue-color);
@@ -136,16 +146,5 @@
         .end-description{
             color:var(--background-color)
         }
-       :root{
-        --brand-color: #2E2F42;
-        --primary-slate-color:#434455;
-        --primary-blue-color:#404BBF;
-        --non-primary-blue-color:#4D5AE5;
-        --primary-white-color:#FFFFFF; 
-        --non-primary-white-color:#E7E9FC;
-        --dark-color:#000000;
-        --background-color:#F4F4FD;
-       } 
-     .hidden-h1{
-        display: none;
-     }
+     
+    
