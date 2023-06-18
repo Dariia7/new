@@ -146,5 +146,7 @@
         .end-description{
             color:var(--background-color)
         }
-     
+     .link-nav{
+        color:var(--brand-color)
+     }
     
