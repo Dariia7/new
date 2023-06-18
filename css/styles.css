@@ -11,10 +11,17 @@
   .section{
     background-color:var(--background-color);
   }
+  .section-background{
+    background-color: var(--primary-white-color);
+  }
   .link-nav{
     color: var(--brand-color);
   }
 .end-description{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--background-color);
 }
 
@@ -74,9 +81,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     background-color:var(--non-primary-blue-color);
     color:var(--background-color)
-    cursor: pointer;
+    
 }
 .subtitle{
     font-weight: 500;
