@@ -64,8 +64,8 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color:var(--background-color)
-    color:var(--non-primary-blue-color)
+    background-color:var(--background-color);
+    color:var(--non-primary-blue-color);
     cursor: pointer;
 }
 .subtitle{
@@ -91,8 +91,7 @@
         text-align: center;
         text-transform: capitalize;
         color: var(--brand-color);
-        background-color: var(--background-color);
-    }
+        }
     .img-list{
         list-style-type: none;
     }
@@ -135,8 +134,8 @@
         }
         .button:hover,
         .button:focus{
-            color:var(--primary-white-color)
-            background-color:var(var(--primary-blue-color))
+            color:var(--primary-white-color);
+            background-color:var(var(--primary-blue-color);
         }
         .filter-btn:hover,
         .filter-btn:focus{
@@ -144,9 +143,11 @@
             background-color:var(--primary-blue-color);
         }
         .end-description{
-            color:var(--background-color)
+            color:var(--background-color);
         }
      .link-nav{
-        color:var(--brand-color)
+        color:var(--brand-color);
      }
-    
+    .section{
+        background-color: var(--background-color);
+    }
