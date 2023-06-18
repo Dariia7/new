@@ -8,6 +8,16 @@
       --dark-color: #000000;
       --background-color: #F4F4FD;
   }
+  .section{
+    background-color:var(--background-color);
+  }
+  .link-nav{
+    color: var(--brand-color);
+  }
+.end-description{
+    color: var(--background-color);
+}
+
 .body {
     font-family: "Roboto", sans-serif;
     background-color:var(--primary-white-color);
@@ -118,6 +128,11 @@
         ul li a {
             text-decoration: none;
         }
+        .filter-btn:hover,
+        .filter-btn:focus{
+            color:var(--primary-white-color);
+            background-color: var(--primary-blue-color);
+        }
         .list:hover,
         .list:focus{
             color:var(--primary-blue-color);
@@ -137,17 +152,3 @@
             color:var(--primary-white-color);
             background-color:var(var(--primary-blue-color);
         }
-        .filter-btn:hover,
-        .filter-btn:focus{
-            color:var(--primary-white-color);
-            background-color:var(--primary-blue-color);
-        }
-        .end-description{
-            color:var(--background-color);
-        }
-     .link-nav{
-        color:var(--brand-color);
-     }
-    .section{
-        background-color: var(--background-color);
-    }
