@@ -16,9 +16,15 @@
   }
   .link-nav{
     color: var(--brand-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color)
   }
 .end-description{
-    font-weight: 700;
+    font-family: Roboto;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -50,11 +56,7 @@
 
 .list {
     list-style-type: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--brand-color)
+  
         }
 
 .main-address{
@@ -143,15 +145,10 @@
             color:var(--primary-white-color);
             background-color: var(--primary-blue-color);
         }
-        .list:hover,
-        .list:focus{
-            color:var(--primary-blue-color);
-            text-decoration: underline;
-        }
+       
         .link:hover,
         .link:focus{
             color: var(--primary-blue-color);
-            text-decoration: underline;
         }
         .address:hover,
         .address:focus{
